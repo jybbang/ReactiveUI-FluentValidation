@@ -17,7 +17,7 @@ It is a small library for [ReactiveUI](https://reactiveui.net/) to support XAML 
 
 ReactiveValidationObject can be installed using the Nuget package manager or the dotnet CLI.
 
-> Install-Package ReactiveValidationObject
+> Install-Package ReactiveUI-FulentValidation
 
 Or you can just copy the `ReactiveValidationObject.cs` into your project.
 
@@ -32,7 +32,7 @@ So this thime. I just show a how to use my library only.
 this is our first ViewModel class:
 
 ```csharp
-	using ReactiveUI;
+    using ReactiveUI;
 
     public class AppViewModel : ReactiveObject
     {
