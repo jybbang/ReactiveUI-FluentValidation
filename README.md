@@ -83,7 +83,7 @@ As you can see it is work very well.
 
 You can not click the button if suname and forename are empty:
 
-![](Untitled-2d68fc39-3088-4d08-b289-91b1771b8d81.png)
+![](Images/Untitled-2d68fc39-3088-4d08-b289-91b1771b8d81.png)
 
 However If you wanna display validation erros in your view.
 
@@ -225,4 +225,4 @@ And then you should bind properties in xaml:
 ```
 Now you can see errors in your view like this:
 
-![](Untitled-380e4205-1068-4782-bb47-d9287bac25fa.png)
+![](Images/Untitled-380e4205-1068-4782-bb47-d9287bac25fa.png)
