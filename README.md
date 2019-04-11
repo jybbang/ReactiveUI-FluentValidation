@@ -9,6 +9,7 @@ It is a small library for [ReactiveUI](https://reactiveui.net/) to support XAML 
 - To XAML binding, we should initialize the DataContext of View. Andthen we use some traditional XAML markup bindings (only some properties that we want to validate).
 
 > CAUTION
+>
 > If you HATE to use XAML markup bindings. It's NOT for you.
 
 ## Get Started
@@ -17,7 +18,9 @@ It is a small library for [ReactiveUI](https://reactiveui.net/) to support XAML 
 
 ReactiveValidationObject can be installed using the Nuget package manager or the dotnet CLI.
 
-> Install-Package ReactiveUI-FluentValidation
+```
+Install-Package ReactiveUI-FluentValidation
+```
 
 Or you can just copy the `ReactiveValidationObject.cs` into your project.
 
@@ -25,11 +28,11 @@ After that you should get [\*FluentValidation](https://fluentvalidation.net/) pa
 
 ### 2. Create your validator
 
-I use a popular validation library \*FluentValidation. Therefore you can learn how to validate - [https://fluentvalidation.net/](https://fluentvalidation.net/)
+I use a popular validation library \*FluentValidation. Therefore more validation rules are HERE --> [https://fluentvalidation.net/](https://fluentvalidation.net/)
 
 So this thime. I just show a how to use my library only.
 
-this is our first ViewModel class:
+this is our first ReactiveObject ViewModel class:
 
 ```csharp
     using ReactiveUI;
@@ -78,3 +81,5 @@ this is our first ViewModel class:
         }
     }
 ```
+
+It is
