@@ -1,4 +1,4 @@
-# [ReactiveValidationObject](https://github.com/jybbang/ReactiveValidationObject.git)
+# ReactiveValidationObject
 
 It is a small library for [ReactiveUI](https://reactiveui.net/) to support XAML Binding validation using [*FluentValidation](https://fluentvalidation.net/)
 
